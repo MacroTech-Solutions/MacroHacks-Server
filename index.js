@@ -4,12 +4,12 @@ var logger = require('winston');
 var admin = require('firebase-admin');
 const path = require('path');
 var bodyParser = require('body-parser');
-var serviceAccount = require("./mobilehacks-macrotech-firebase-adminsdk-oyl9c-5685056c46.json");
+var serviceAccount = require("./macrohacks-macrotech-firebase-adminsdk-ycmff-dc86532e3b.json");
 const PORT = process.env.PORT || 80;
 
 var app = admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://mobilehacks-macrotech.firebaseio.com"
+    databaseURL: "https://macrohacks-macrotech.firebaseio.com"
 });
 
 var database = admin.database();

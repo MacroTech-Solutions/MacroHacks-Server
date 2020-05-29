@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MacroHacks</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <!-- Start: Login Form Clean -->
+    <div class="login-clean" style="margin-top: 100px;">
+        <form id="fullForm" method="post">
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration"><i class="fas fa-user-plus"></i></div>
+            <p style="text-align:center" id="error"></p>
+            <div class="form-group"><input id="firstName" class="form-control" type="text" name="firstName" placeholder="First Name"></div>
+            <div class="form-group"><input id="lastName" class="form-control" type="text" name="lastName" placeholder="Last Name"></div>
+            <div class="form-group"><input id="email" class="form-control" type="email" name="email" placeholder="Email Address"></div>
+            <div class="form-group"><input id="discord" class="form-control" type="text" name="discord" placeholder="Discord Username"></div>
+            <div class="form-group d-lg-flex justify-content-lg-center align-items-lg-center"><input id="terms" type="checkbox" name="terms" placeholder="Discord Username">
+                <p class="text-center" style="font-size: 9px;margin-bottom: 0px;">I agree to the <a href="terms">Terms and Conditions</a> and <a href="privacy">Privacy Policy</a> for MacroHacks.</p>
+            </div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" onclick="register()">Register</button></div>
+        </form>
+    </div>
+    <!-- End: Login Form Clean -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="/" style="color: rgb(255,255,255);font-family: Montserrat;font-weight: 800;"><img src="assets/img/MacroHacks.png" style="width: 77px;padding-right: 12px;">MacroHacks</a><button data-toggle="collapse" data-target="#navbarResponsive"
+                class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+        </div>
+    </nav>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-5"><span class="copyright">Copyright&nbsp;© MacroTech Solutions Inc. 2020</span></div>
+                <div class="col-md-4 col-lg-3">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a href="https://github.com/MacroTech-Solutions/"><i class="fa fa-github-alt"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/MacroTechSolutionsInc/"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/company/macrotech-solutions-inc"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item"><a href="/privacy">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a href="/terms">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script
+            src="./assets/js/register.min.js" async defer></script>
+</body>
+
+</html>

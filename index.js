@@ -72,7 +72,7 @@ express()
       returnVal = {
         data: 'Invalid email address.'
       };
-    } else if(!(/^[a-zA-z ]+#\d\d\d\d$/.test(discord))){
+    } else if(!(/^.+#\d\d\d\d$/.test(discord))){
       returnVal = {
         data: 'Invalid Discord username. Please use the format Username#0000'
       };

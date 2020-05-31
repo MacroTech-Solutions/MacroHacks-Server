@@ -57,7 +57,7 @@ express()
       };
     } else if(discord == "Sai#3914" || discord == "Arya#7047" || discord == "JoshRak#8450" || discord == "Helix#1504"){
       returnVal = {
-        data: 'This Discord username belongs to a moderator. Please use your own Discord username.'
+        data: 'This Discord username belongs to a judge. Please use your own Discord username.'
       };
     }else if (firstName.length == 0 || lastName.length == 0) {
       returnVal = {
@@ -74,7 +74,7 @@ express()
       };
     } else if(!(/^[a-zA-z ]+#\d\d\d\d$/.test(discord))){
       returnVal = {
-        data: 'Invalid Discord username.'
+        data: 'Invalid Discord username. Please use the format Username#0000'
       };
     } else if(req.headers.terms == false || req.headers.terms == "false"){
       returnVal = {
